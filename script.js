@@ -1,4 +1,4 @@
-//https://getbible.net/api
+
 var url = 'http://getbible.net/json',
   timer;
 
@@ -47,7 +47,7 @@ function lookUp(ref) {
           });
         });
       }
-      //output = output.replace(/\*/g, "");
+    
       $("#passage").html(output);
     },
     error: function(json, error) {
